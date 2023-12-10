@@ -4,8 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://kit.fontawesome.com/edcd5c8c16.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="Responsive.css">
     <title>Carvilla.com</title>
 </head>
 
@@ -16,54 +16,59 @@
             <div class="logo">
                 <a href="#">CARVILLA</a>
             </div>
-            <ul class="nav_menu">
-                <li><a href="#home">Home</a></li>
+            <ul class="nav-menu">
+                <li><a href="#home" class="active">Home</a></li>
                 <li><a href="#service">Service</a></li>
                 <li><a href="#">Featured Cars</a></li>
                 <li><a href="#">New Cars</a></li>
                 <li><a href="#">Brands</a></li>
                 <li><a href="#">Contact</a></li>
             </ul>
+            <div class="hamburger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
         </nav>
     </header>
     <!-- --------------- /Header-section ------------------ -->
-
+    
     <!-- --------------- Main-section ------------------ -->
     <main>
         <!-- --------------- Hero-section ------------------ -->
         <section class="hero" id="home">
             <img src="/Images/welcome-banner.jpg" alt="welcome-banner-image">
-            <div class="hero_container">
+            <div class="hero-container">
                 <h1>GET YOUR DESIRED CAR IN RESONABLE PRICE</h1>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
                     et dolore magna aliqua.</p>
-                <button type="submit">Contact Us</button>
-            </div>
-        </section>
-        <!-- --------------- /Hero-section ------------------ -->
-
-        <!-- --------------- Service-section ------------------ -->
-        <section class="service" id="service">
-            <div class="service_wrapper">
-                <div class="service_box">
-                    <div class="service-img">
-                        <img src="/Images/car.png" alt="car-image">
-                    </div>
-                    <h3>Largest Dealership of Cars</h3>
-                    <p>
-                        Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut den fugit sed quia.</p>
-                        <span></span>
+                    <button type="submit" class="hero-btn">Contact Us</button>
                 </div>
-                <div class="service_box">
-                    <div class="service-img">
-                        <img src="/Images/maintenance.png" alt="car-maintenance-image">
-                    </div>
-                    <h3>Largest Dealership of Cars</h3>
-                    <p>
-                        Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut den fugit sed quia.</p>
-                        <span></span>
-                </div>
-                <div class="service_box">
+            </section>
+            <!-- --------------- /Hero-section ------------------ -->
+            
+            <!-- --------------- Service-section ------------------ -->
+            <section class="service" id="service">
+                <div class="service_wrapper">
+                    <div class="service_box">
+                        <div class="service-img">
+                            <img src="/Images/car.png" alt="car-image">
+                        </div>
+                        <h3>Largest Dealership of Cars</h3>
+                        <p>
+                            Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut den fugit sed quia.</p>
+                            <span></span>
+                        </div>
+                        <div class="service_box">
+                            <div class="service-img">
+                                <img src="/Images/maintenance.png" alt="car-maintenance-image">
+                            </div>
+                            <h3>Largest Dealership of Cars</h3>
+                            <p>
+                                Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut den fugit sed quia.</p>
+                                <span></span>
+                            </div>
+                            <div class="service_box">
                     <div class="service-img">
                         <img src="/Images/car-insurance.png" alt="car-insurance-image">
                     </div>
@@ -71,11 +76,11 @@
                     <p>
                         Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut den fugit sed quia.</p>
                         <span></span>
-                </div>
+                    </div>
             </div>
         </section>
         <!-- --------------- /Service-section ------------------ -->
-
+        
         <!-- --------------- featured-section ------------------ -->
         <section class="featured">
             <div class="title">
@@ -230,7 +235,7 @@
             </div>
         </section>
         <!-- --------------- /featured-section ------------------ -->
-
+        
         <!-- --------------- Our-Clients-section ------------------ -->
         <section class="Our_Clients">
             <div class="title">
@@ -240,7 +245,7 @@
         <!-- --------------- /Our-Clients-section ------------------ -->
     </main>
     <!-- --------------- /Main-section ------------------ -->
-
+    
     <!-- --------------- Footer-section ------------------ -->
     <footer class="footer">
         <div class="footer_container">
@@ -313,6 +318,9 @@
         </div>
     </footer>
     <!-- --------------- /Footer-section ------------------ -->
+
+    <script src="https://kit.fontawesome.com/edcd5c8c16.js" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
 </body>
 
 </html>

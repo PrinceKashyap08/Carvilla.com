@@ -4,6 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" />
     <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="Responsive.css">
     <title>Carvilla.com</title>
@@ -19,10 +23,10 @@
             <ul class="nav-menu">
                 <li><a href="#home" class="active">Home</a></li>
                 <li><a href="#service">Service</a></li>
-                <li><a href="#">Featured Cars</a></li>
-                <li><a href="#">New Cars</a></li>
-                <li><a href="#">Brands</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#featured">Featured Cars</a></li>
+                <li><a href="#car">New Cars</a></li>
+                <li><a href="#brand">Brands</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
             <div class="hamburger">
                 <div class="line"></div>
@@ -32,7 +36,7 @@
         </nav>
     </header>
     <!-- --------------- /Header-section ------------------ -->
-    
+
     <!-- --------------- Main-section ------------------ -->
     <main>
         <!-- --------------- Hero-section ------------------ -->
@@ -42,213 +46,240 @@
                 <h1>GET YOUR DESIRED CAR IN RESONABLE PRICE</h1>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
                     et dolore magna aliqua.</p>
-                    <button type="submit" class="hero-btn">Contact Us</button>
-                </div>
-            </section>
-            <!-- --------------- /Hero-section ------------------ -->
-            
-            <!-- --------------- Service-section ------------------ -->
-            <section class="service" id="service">
-                <div class="service_wrapper">
-                    <div class="service_box">
-                        <div class="service-img">
-                            <img src="/Images/car.png" alt="car-image">
-                        </div>
-                        <h3>Largest Dealership of Cars</h3>
-                        <p>
-                            Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut den fugit sed quia.</p>
-                            <span></span>
-                        </div>
-                        <div class="service_box">
-                            <div class="service-img">
-                                <img src="/Images/maintenance.png" alt="car-maintenance-image">
-                            </div>
-                            <h3>Largest Dealership of Cars</h3>
-                            <p>
-                                Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut den fugit sed quia.</p>
-                                <span></span>
-                            </div>
-                            <div class="service_box">
+                <button type="submit" class="hero-btn">Contact Us</button>
+            </div>
+        </section>
+        <!-- --------------- /Hero-section ------------------ -->
+
+        <!-- --------------- Service-section ------------------ -->
+        <section class="service" id="service">
+            <div class="service-container">
+                <div class="service-box">
                     <div class="service-img">
-                        <img src="/Images/car-insurance.png" alt="car-insurance-image">
+                        <i class='fa fa-car'></i>
                     </div>
                     <h3>Largest Dealership of Cars</h3>
                     <p>
                         Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut den fugit sed quia.</p>
-                        <span></span>
+                    <span></span>
+                </div>
+                <div class="service-box">
+                    <div class="service-img">
+                        <i class="fa fa-gears"></i>
                     </div>
+                    <h3>Unlimited Repair Warranty</h3>
+                    <p>
+                        Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut den fugit sed quia.</p>
+                    <span></span>
+                </div>
+                <div class="service-box">
+                    <div class="service-img">
+                        <i class="fafa-shield"></i>
+                    </div>
+                    <h3>Insurance Support</h3>
+                    <p>
+                        Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut den fugit sed quia.</p>
+                    <span></span>
+                </div>
             </div>
         </section>
         <!-- --------------- /Service-section ------------------ -->
-        
+
         <!-- --------------- featured-section ------------------ -->
-        <section class="featured">
-            <div class="title">
-                <p>Checkout the Featured Cars</p>
-                <h2>Featured Cars</h2>
-            </div>
-            <div class="featured_container">
-                <div class="featured_box">
-                    <div class="featured-img">
-                        <img src="/Images/fc1.png" alt="BMW-car-image">
+       <section class="feature" id="feature">
+        <div class="Feature-title">
+            <p>Checkout the Featured Cars</p>
+            <h2>Featured Cars</h2>
+        </div>
+        <div class="feature-container">
+            <div class="feature-box">
+                <div class="feature-modal">
+                    <div class="feature-img">
+                        <img src="/Images/fc1.png" alt="">
                     </div>
-                    <div class="featured_detail">
-                        <ul>
-                            <li>Model: 2017</li>
-                            <li>3100 MI</li>
-                            <li>240HP</li>
-                            <li>automatic</li>
-                        </ul>
-                    </div>
-                    <div class="featured_content">
-                        <h3>BMW 6-Series Gran Coupe</h3>
-                        <span>$89,395</span>
-                        <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non.</p>
+                    <div class="feature-info">
+                        <p>Model: 2017 3100 Mi 240HP automatic</p>
                     </div>
                 </div>
-                <div class="featured_box">
-                    <div class="featured-img">
-                        <img src="/Images/fc2.png" alt="chevroiet-camaro-wmv20-image">
-                    </div>
-                    <div class="featured_detail">
-                        <ul>
-                            <li>Model: 2017</li>
-                            <li>3100 MI</li>
-                            <li>240HP</li>
-                            <li>automatic</li>
-                        </ul>
-                    </div>
-                    <div class="featured_content">
-                        <h3>Chevrolet Camaro WMV20</h3>
-                        <span>$66,567</span>
-                        <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non.</p>
-                    </div>
-                </div>
-                <div class="featured_box">
-                    <div class="featured-img">
-                        <img src="/Images/fc3.png" alt="Lamborghini- V520-image">
-                    </div>
-                    <div class="featured_detail">
-                        <ul>
-                            <li>Model: 2017</li>
-                            <li>3100 MI</li>
-                            <li>240HP</li>
-                            <li>automatic</li>
-                        </ul>
-                    </div>
-                    <div class="featured_content">
-                        <h3>Lamborghini V520</h3>
-                        <span>$125,250</span>
-                        <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non.</p>
-                    </div>
-                </div>
-                <div class="featured_box">
-                    <div class="featured-img">
-                        <img src="/Images/fc4.png" alt="Audi-A3 -Sedan-image">
-                    </div>
-                    <div class="featured_detail">
-                        <ul>
-                            <li>Model: 2017</li>
-                            <li>3100 MI</li>
-                            <li>240HP</li>
-                            <li>automatic</li>
-                        </ul>
-                    </div>
-                    <div class="featured_content">
-                        <h3>Audi A3 Sedan</h3>
-                        <span>$95,500</span>
-                        <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non.</p>
-                    </div>
-                </div>
-                <div class="featured_box">
-                    <div class="featured-img">
-                        <img src="/Images/fc4.png" alt="infiniti Z5-image">
-                    </div>
-                    <div class="featured_detail">
-                        <ul>
-                            <li>Model: 2017</li>
-                            <li>3100 MI</li>
-                            <li>240HP</li>
-                            <li>automatic</li>
-                        </ul>
-                    </div>
-                    <div class="featured_content">
-                        <h3>Infiniti Z5</h3>
-                        <span>$36,850</span>
-                        <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non.</p>
-                    </div>
-                </div>
-                <div class="featured_box">
-                    <div class="featured-img">
-                        <img src="/Images/fc5.png" alt="Porsche 718 Cayman-image">
-                    </div>
-                    <div class="featured_detail">
-                        <ul>
-                            <li>Model: 2017</li>
-                            <li>3100 MI</li>
-                            <li>240HP</li>
-                            <li>automatic</li>
-                        </ul>
-                    </div>
-                    <div class="featured_content">
-                        <h3>Porsche 718 Cayman</h3>
-                        <span>$48,850</span>
-                        <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non.</p>
-                    </div>
-                </div>
-                <div class="featured_box">
-                    <div class="featured-img">
-                        <img src="/Images/fc7.png" alt="BMW 8-Series Coupe-image">
-                    </div>
-                    <div class="featured_detail">
-                        <ul>
-                            <li>Model: 2017</li>
-                            <li>3100 MI</li>
-                            <li>240HP</li>
-                            <li>automatic</li>
-                        </ul>
-                    </div>
-                    <div class="featured_content">
-                        <h3>BMW 8-Series Coupe</h3>
-                        <span>$56,850</span>
-                        <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non.</p>
-                    </div>
-                </div>
-                <div class="featured_box">
-                    <div class="featured-img">
-                        <img src="/Images/fc8.png" alt="BMW Xseries-6-image">
-                    </div>
-                    <div class="featured_detail">
-                        <ul>
-                            <li>Model: 2017</li>
-                            <li>3100 MI</li>
-                            <li>240HP</li>
-                            <li>automatic</li>
-                        </ul>
-                    </div>
-                    <div class="featured_content">
-                        <h3>BMW Xseries-6</h3>
-                        <span>$75,800</span>
-                        <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non.</p>
-                    </div>
+                <div class="feature-content">
+                    <h3>BMW 6-Series Gran Coupe</h3>
+                    <span>$89,395</span>
+                    <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non.</p>
                 </div>
             </div>
-        </section>
+            <div class="feature-box">
+                <div class="feature-modal">
+                    <div class="feature-img">
+                        <img src="/Images/fc2.png" alt="">
+                    </div>
+                    <div class="feature-info">
+                        <p>Model: 2017 3100 Mi 240HP automatic</p>
+                    </div>
+                </div>
+                <div class="feature-content">
+                    <h3>BMW 6-Series Gran Coupe</h3>
+                    <span>$89,395</span>
+                    <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non.</p>
+                </div>
+            </div>
+            <div class="feature-box">
+                <div class="feature-modal">
+                    <div class="feature-img">
+                        <img src="/Images/fc3.png" alt="">
+                    </div>
+                    <div class="feature-info">
+                        <p>Model: 2017 3100 Mi 240HP automatic</p>
+                    </div>
+                </div>
+                <div class="feature-content">
+                    <h3>BMW 6-Series Gran Coupe</h3>
+                    <span>$89,395</span>
+                    <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non.</p>
+                </div>
+            </div>
+            <div class="feature-box">
+                <div class="feature-modal">
+                    <div class="feature-img">
+                        <img src="/Images/fc4.png" alt="">
+                    </div>
+                    <div class="feature-info">
+                        <p>Model: 2017 3100 Mi 240HP automatic</p>
+                    </div>
+                </div>
+                <div class="feature-content">
+                    <h3>BMW 6-Series Gran Coupe</h3>
+                    <span>$89,395</span>
+                    <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non.</p>
+                </div>
+            </div>
+            <div class="feature-box">
+                <div class="feature-modal">
+                    <div class="feature-img">
+                        <img src="/Images/fc4.png" alt="">
+                    </div>
+                    <div class="feature-info">
+                        <p>Model: 2017 3100 Mi 240HP automatic</p>
+                    </div>
+                </div>
+                <div class="feature-content">
+                    <h3>BMW 6-Series Gran Coupe</h3>
+                    <span>$89,395</span>
+                    <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non.</p>
+                </div>
+            </div>
+            <div class="feature-box">
+                <div class="feature-modal">
+                    <div class="feature-img">
+                        <img src="/Images/fc5.png" alt="">
+                    </div>
+                    <div class="feature-info">
+                        <p>Model: 2017 3100 Mi 240HP automatic</p>
+                    </div>
+                </div>
+                <div class="feature-content">
+                    <h3>BMW 6-Series Gran Coupe</h3>
+                    <span>$89,395</span>
+                    <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non.</p>
+                </div>
+            </div>
+            <div class="feature-box">
+                <div class="feature-modal">
+                    <div class="feature-img">
+                        <img src="/Images/fc7.png" alt="">
+                    </div>
+                    <div class="feature-info">
+                        <p>Model: 2017 3100 Mi 240HP automatic</p>
+                    </div>
+                </div>
+                <div class="feature-content">
+                    <h3>BMW 6-Series Gran Coupe</h3>
+                    <span>$89,395</span>
+                    <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non.</p>
+                </div>
+            </div>
+            <div class="feature-box">
+                <div class="feature-modal">
+                    <div class="feature-img">
+                        <img src="/Images/fc8.png" alt="">
+                    </div>
+                    <div class="feature-info">
+                        <p>Model: 2017 3100 Mi 240HP automatic</p>
+                    </div>
+                </div>
+                <div class="feature-content">
+                    <h3>BMW 6-Series Gran Coupe</h3>
+                    <span>$89,395</span>
+                    <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non.</p>
+                </div>
+            </div>
+        </div>
+       </section>
         <!-- --------------- /featured-section ------------------ -->
-        
+
         <!-- --------------- Our-Clients-section ------------------ -->
-        <section class="Our_Clients">
+        <section class="Our_Clients" id="client">
             <div class="title">
                 <h2>What Our Clients Say</h2>
             </div>
+            <div class="Client-container" id="client">
+                <div class="owl-carousel client owl-theme">
+                   <div class="client-modal">
+                     <div class="client-img">
+                        <img src="/Images/c1.png" alt="client-image">
+                     </div>
+                     <p>Sed ut pers unde omnis iste natus error sit voluptatem accusantium dolor laudan rem aperiam, eaque ipsa quae ab illo inventore verit.</p>
+                     <h2>John Doe</h2>
+                     <h3>Washington</h3>
+                   </div>
+                   <div class="client-modal">
+                     <div class="client-img">
+                        <img src="/Images/c2.png" alt="client-image">
+                     </div>
+                     <p>Sed ut pers unde omnis iste natus error sit voluptatem accusantium dolor laudan rem aperiam, eaque ipsa quae ab illo inventore verit.</p>
+                     <h2>Rami Rain</h2>
+                     <h3>London</h3>
+                   </div>
+                   <div class="client-modal">
+                     <div class="client-img">
+                        <img src="/Images/c3.png" alt="client-image">
+                     </div>
+                     <p>Sed ut pers unde omnis iste natus error sit voluptatem accusantium dolor laudan rem aperiam, eaque ipsa quae ab illo inventore verit.</p>
+                     <h2>Tomas Lilli</h2>
+                     <h3>New York</h3>
+                   </div>
+                </div>
+            </div>
         </section>
         <!-- --------------- /Our-Clients-section ------------------ -->
+
+        <!-- --------------- brand-section ------------------ -->
+        <section class="brand" id="brand">
+            <div class="brand-container">
+                <div class="owl-carousel owl-theme">
+                    <div class="item"><img src="/Images/br1.png" alt=""></div>
+                    <div class="item"><img src="/Images/br2.png" alt=""></div>
+                    <div class="item"><img src="/Images/br3.png" alt=""></div>
+                    <div class="item"><img src="/Images/br4.png" alt=""></div>
+                    <div class="item"><img src="/Images/br5.png" alt=""></div>
+                    <div class="item"><img src="/Images/br6.png" alt=""></div>
+                </div>
+            </div>
+        </section>
+        <!-- --------------- /brand-section ------------------ -->
     </main>
     <!-- --------------- /Main-section ------------------ -->
-    
+
     <!-- --------------- Footer-section ------------------ -->
-    <footer class="footer">
-        <div class="footer_container">
+    <footer class="footer" id="contact">
+        <div class="footer-container">
+            <div class="footer_box">
+                <h2>CARVILLA</h2>
+                <p>Ased do eiusm tempor incidi ut labore et dolore magnaian aliqua. Ut enim ad minim veniam.</p>
+                <ul>
+                    <li>name@domain.com</li>
+                    <li>+1 (222) 1234567890</li>
+                </ul>
+            </div>
             <div class="footer_box">
                 <div class="footer_heading">
                     <h3>About Devloon</h3>
@@ -266,7 +297,7 @@
                 <div class="footer_heading">
                     <h3>Top Brands</h3>
                 </div>
-                <div class="footer_links">
+                <div class="footer_links double">
                     <ul>
                         <li><a href="#">BMW</a></li>
                         <li><a href="#">lamborghini</a></li>
@@ -275,13 +306,6 @@
                         <li><a href="#">infiniti</a></li>
                         <li><a href="#">Nissan</a></li>
                     </ul>
-                </div>
-            </div>
-            <div class="footer_box">
-                <div class="footer_heading">
-                    <h3>Top Cars</h3>
-                </div>
-                <div class="footer_links">
                     <ul>
                         <li><a href="#">Ferrari</a></li>
                         <li><a href="#">Porsche</a></li>
@@ -300,7 +324,7 @@
                     <p>Subscribe to get latest news update and informations</p>
                     <form>
                         <input type="email" name="email" placeholder="Add Email">
-                        <span></span>
+                        <span><i class="fa fa-arrow-right"></i></span>
                     </form>
                 </div>
             </div>
@@ -319,6 +343,8 @@
     </footer>
     <!-- --------------- /Footer-section ------------------ -->
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
     <script src="https://kit.fontawesome.com/edcd5c8c16.js" crossorigin="anonymous"></script>
     <script src="index.js"></script>
 </body>

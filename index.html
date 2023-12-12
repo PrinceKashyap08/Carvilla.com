@@ -1,32 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
-    <link rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+    integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="index.css">
-    <link rel="stylesheet" href="Responsive.css">
+    <link rel="stylesheet" href="/responsive.css">
     <title>Carvilla.com</title>
 </head>
-
 <body>
-    <!-- --------------- Header-section ------------------ -->
+    <!-- ------------------- header-section -------------------- -->
     <header class="header">
-        <nav class="navbar">
+        <nav class="navbar wrapper">
             <div class="logo">
-                <a href="#">CARVILLA</a>
+                <a href="#">Carvilla</a>
             </div>
             <ul class="nav-menu">
-                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#hero" class="active">Home</a></li>
                 <li><a href="#service">Service</a></li>
-                <li><a href="#featured">Featured Cars</a></li>
-                <li><a href="#car">New Cars</a></li>
+                <li><a href="#">Featured Cars</a></li>
+                <li><a href="#">New cars</a></li>
                 <li><a href="#brand">Brands</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a href="#Contact">Contact</a></li>
             </ul>
             <div class="hamburger">
                 <div class="line"></div>
@@ -35,318 +37,202 @@
             </div>
         </nav>
     </header>
-    <!-- --------------- /Header-section ------------------ -->
+    <!-- ------------------- header-section -------------------- -->
 
-    <!-- --------------- Main-section ------------------ -->
+    <!-- ------------------- main-section -------------------- -->
     <main>
-        <!-- --------------- Hero-section ------------------ -->
-        <section class="hero" id="home">
-            <img src="/Images/welcome-banner.jpg" alt="welcome-banner-image">
-            <div class="hero-container">
-                <h1>GET YOUR DESIRED CAR IN RESONABLE PRICE</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
-                    et dolore magna aliqua.</p>
-                <button type="submit" class="hero-btn">Contact Us</button>
+        <!-- ------------------- hero-section -------------------- -->
+        <section class="hero" id="hero">
+            <div class="hero-container wrapper">
+                <h1>Get Your Desired car in Resonable Price</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <button type="submit" class="h-btn">Contact Us</button>
             </div>
         </section>
-        <!-- --------------- /Hero-section ------------------ -->
+        <!-- ------------------- /hero-section -------------------- -->
 
-        <!-- --------------- Service-section ------------------ -->
+        <!-- ------------------- searchModal-section -------------------- -->
+        <!-- ------------------- /searchModal-section -------------------- -->
+
+        <!-- ------------------- service-section -------------------- -->
         <section class="service" id="service">
-            <div class="service-container">
+            <div class="service-container wrapper">
                 <div class="service-box">
-                    <div class="service-img">
-                        <i class='fa fa-car'></i>
-                    </div>
+                    <i class="fa fa-car"></i>
                     <h3>Largest Dealership of Cars</h3>
-                    <p>
-                        Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut den fugit sed quia.</p>
+                    <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut den fugit sed quia.</p>
                     <span></span>
                 </div>
                 <div class="service-box">
-                    <div class="service-img">
-                        <i class="fa fa-gears"></i>
-                    </div>
+                    <i class="fa fa-gears"></i>
                     <h3>Unlimited Repair Warranty</h3>
-                    <p>
-                        Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut den fugit sed quia.</p>
+                    <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut den fugit sed quia.</p>
                     <span></span>
                 </div>
                 <div class="service-box">
-                    <div class="service-img">
-                        <i class="fafa-shield"></i>
-                    </div>
+                    <i class="fa fa-shield"></i>
                     <h3>Insurance Support</h3>
-                    <p>
-                        Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut den fugit sed quia.</p>
+                    <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut den fugit sed quia.</p>
                     <span></span>
                 </div>
             </div>
         </section>
-        <!-- --------------- /Service-section ------------------ -->
+        <!-- ------------------- /service-section -------------------- -->
 
-        <!-- --------------- featured-section ------------------ -->
-       <section class="feature" id="feature">
-        <div class="Feature-title">
-            <p>Checkout the Featured Cars</p>
-            <h2>Featured Cars</h2>
-        </div>
-        <div class="feature-container">
-            <div class="feature-box">
-                <div class="feature-modal">
-                    <div class="feature-img">
-                        <img src="/Images/fc1.png" alt="">
-                    </div>
-                    <div class="feature-info">
-                        <p>Model: 2017 3100 Mi 240HP automatic</p>
-                    </div>
-                </div>
-                <div class="feature-content">
-                    <h3>BMW 6-Series Gran Coupe</h3>
-                    <span>$89,395</span>
-                    <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non.</p>
-                </div>
-            </div>
-            <div class="feature-box">
-                <div class="feature-modal">
-                    <div class="feature-img">
-                        <img src="/Images/fc2.png" alt="">
-                    </div>
-                    <div class="feature-info">
-                        <p>Model: 2017 3100 Mi 240HP automatic</p>
-                    </div>
-                </div>
-                <div class="feature-content">
-                    <h3>BMW 6-Series Gran Coupe</h3>
-                    <span>$89,395</span>
-                    <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non.</p>
-                </div>
-            </div>
-            <div class="feature-box">
-                <div class="feature-modal">
-                    <div class="feature-img">
-                        <img src="/Images/fc3.png" alt="">
-                    </div>
-                    <div class="feature-info">
-                        <p>Model: 2017 3100 Mi 240HP automatic</p>
-                    </div>
-                </div>
-                <div class="feature-content">
-                    <h3>BMW 6-Series Gran Coupe</h3>
-                    <span>$89,395</span>
-                    <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non.</p>
-                </div>
-            </div>
-            <div class="feature-box">
-                <div class="feature-modal">
-                    <div class="feature-img">
-                        <img src="/Images/fc4.png" alt="">
-                    </div>
-                    <div class="feature-info">
-                        <p>Model: 2017 3100 Mi 240HP automatic</p>
-                    </div>
-                </div>
-                <div class="feature-content">
-                    <h3>BMW 6-Series Gran Coupe</h3>
-                    <span>$89,395</span>
-                    <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non.</p>
-                </div>
-            </div>
-            <div class="feature-box">
-                <div class="feature-modal">
-                    <div class="feature-img">
-                        <img src="/Images/fc4.png" alt="">
-                    </div>
-                    <div class="feature-info">
-                        <p>Model: 2017 3100 Mi 240HP automatic</p>
-                    </div>
-                </div>
-                <div class="feature-content">
-                    <h3>BMW 6-Series Gran Coupe</h3>
-                    <span>$89,395</span>
-                    <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non.</p>
-                </div>
-            </div>
-            <div class="feature-box">
-                <div class="feature-modal">
-                    <div class="feature-img">
-                        <img src="/Images/fc5.png" alt="">
-                    </div>
-                    <div class="feature-info">
-                        <p>Model: 2017 3100 Mi 240HP automatic</p>
-                    </div>
-                </div>
-                <div class="feature-content">
-                    <h3>BMW 6-Series Gran Coupe</h3>
-                    <span>$89,395</span>
-                    <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non.</p>
-                </div>
-            </div>
-            <div class="feature-box">
-                <div class="feature-modal">
-                    <div class="feature-img">
-                        <img src="/Images/fc7.png" alt="">
-                    </div>
-                    <div class="feature-info">
-                        <p>Model: 2017 3100 Mi 240HP automatic</p>
-                    </div>
-                </div>
-                <div class="feature-content">
-                    <h3>BMW 6-Series Gran Coupe</h3>
-                    <span>$89,395</span>
-                    <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non.</p>
-                </div>
-            </div>
-            <div class="feature-box">
-                <div class="feature-modal">
-                    <div class="feature-img">
-                        <img src="/Images/fc8.png" alt="">
-                    </div>
-                    <div class="feature-info">
-                        <p>Model: 2017 3100 Mi 240HP automatic</p>
-                    </div>
-                </div>
-                <div class="feature-content">
-                    <h3>BMW 6-Series Gran Coupe</h3>
-                    <span>$89,395</span>
-                    <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non.</p>
-                </div>
-            </div>
-        </div>
-       </section>
-        <!-- --------------- /featured-section ------------------ -->
+        <!-- ------------------- NewestCars-section -------------------- -->
+        <!-- ------------------- /NewestCars-section -------------------- -->
 
-        <!-- --------------- Our-Clients-section ------------------ -->
-        <section class="Our_Clients" id="client">
-            <div class="title">
+        <!-- ------------------- featured-section -------------------- -->
+        <!-- ------------------- /featured-section -------------------- -->
+
+        <!-- ------------------- Clients-section -------------------- -->
+        <section class="client" id="client">
+            <div class="Client-title wrapper">
                 <h2>What Our Clients Say</h2>
             </div>
-            <div class="Client-container" id="client">
-                <div class="owl-carousel client owl-theme">
-                   <div class="client-modal">
-                     <div class="client-img">
-                        <img src="/Images/c1.png" alt="client-image">
-                     </div>
-                     <p>Sed ut pers unde omnis iste natus error sit voluptatem accusantium dolor laudan rem aperiam, eaque ipsa quae ab illo inventore verit.</p>
-                     <h2>John Doe</h2>
-                     <h3>Washington</h3>
-                   </div>
-                   <div class="client-modal">
-                     <div class="client-img">
-                        <img src="/Images/c2.png" alt="client-image">
-                     </div>
-                     <p>Sed ut pers unde omnis iste natus error sit voluptatem accusantium dolor laudan rem aperiam, eaque ipsa quae ab illo inventore verit.</p>
-                     <h2>Rami Rain</h2>
-                     <h3>London</h3>
-                   </div>
-                   <div class="client-modal">
-                     <div class="client-img">
-                        <img src="/Images/c3.png" alt="client-image">
-                     </div>
-                     <p>Sed ut pers unde omnis iste natus error sit voluptatem accusantium dolor laudan rem aperiam, eaque ipsa quae ab illo inventore verit.</p>
-                     <h2>Tomas Lilli</h2>
-                     <h3>New York</h3>
-                   </div>
-                </div>
-            </div>
-        </section>
-        <!-- --------------- /Our-Clients-section ------------------ -->
-
-        <!-- --------------- brand-section ------------------ -->
-        <section class="brand" id="brand">
-            <div class="brand-container">
+            <div class="client-conatiner wrapper">
                 <div class="owl-carousel owl-theme">
-                    <div class="item"><img src="/Images/br1.png" alt=""></div>
-                    <div class="item"><img src="/Images/br2.png" alt=""></div>
-                    <div class="item"><img src="/Images/br3.png" alt=""></div>
-                    <div class="item"><img src="/Images/br4.png" alt=""></div>
-                    <div class="item"><img src="/Images/br5.png" alt=""></div>
-                    <div class="item"><img src="/Images/br6.png" alt=""></div>
+                    <div class="client-box">
+                        <div class="client-img">
+                            <img src="/Images/c1.png" alt="client-img">
+                        </div>
+                        <p>Sed ut pers unde omnis iste natus error sit voluptatem accusantium dolor laudan rem aperiam, eaque ipsa quae ab illo inventore verit.</p>
+                        <h3>Tamas hill</h3>
+                        <h4>New york</h4>
+                    </div>   
+                    <div class="client-box">
+                        <div class="client-img">
+                            <img src="/Images/c2.png" alt="client-img">
+                        </div>
+                        <p>Sed ut pers unde omnis iste natus error sit voluptatem accusantium dolor laudan rem aperiam, eaque ipsa quae ab illo inventore verit.</p>
+                        <h3>Rami Rain</h3>
+                        <h4>London</h4>
+                    </div>   
+                    <div class="client-box">
+                        <div class="client-img">
+                            <img src="/Images/c3.png" alt="client-img">
+                        </div>
+                        <p>Sed ut pers unde omnis iste natus error sit voluptatem accusantium dolor laudan rem aperiam, eaque ipsa quae ab illo inventore verit.</p>
+                        <h3>john Doe</h3>
+                        <h4>Washinton</h4>
+                    </div>   
                 </div>
+
             </div>
         </section>
-        <!-- --------------- /brand-section ------------------ -->
-    </main>
-    <!-- --------------- /Main-section ------------------ -->
+        <!-- ------------------- /Clients-section -------------------- -->
 
-    <!-- --------------- Footer-section ------------------ -->
-    <footer class="footer" id="contact">
-        <div class="footer-container">
-            <div class="footer_box">
-                <h2>CARVILLA</h2>
-                <p>Ased do eiusm tempor incidi ut labore et dolore magnaian aliqua. Ut enim ad minim veniam.</p>
-                <ul>
-                    <li>name@domain.com</li>
-                    <li>+1 (222) 1234567890</li>
-                </ul>
+        <!-- ------------------- brand-section -------------------- -->
+        <!-- <section class="brand" id="carBrand">
+            <div class="owl-carousel owl-theme wrapper">
+               <div class="brand-box">
+                <img src="/Images/br1.png" alt="Hyundai image">
+               </div> 
+               <div class="brand-box">
+                <img src="/Images/br2.png" alt="dish image">
+               </div> 
+               <div class="brand-box">
+                <img src="/Images/br3.png" alt="acer image">
+               </div> 
+               <div class="brand-box">
+                <img src="/Images/br4.png" alt="hsbc image">
+               </div> 
+               <div class="brand-box">
+                <img src="/Images/br5.png" alt="Hyundai image">
+               </div> 
+               <div class="brand-box">
+                <img src="/Images/br6.png" alt="Hyundai image">
+               </div> 
             </div>
-            <div class="footer_box">
-                <div class="footer_heading">
+        </section> -->
+        <!-- ------------------- /brand-section -------------------- -->
+    </main>
+    <!-- ------------------- /main-section -------------------- -->
+
+    <!-- ------------------- footer-section -------------------- -->
+    <footer class="footer" id="Contact">
+        <div class="footer-container wrapper">
+            <div class="footer-box">
+                <div class="footer-about">
+                    <h3>CARVILLA</h3>
+                    <p>Ased do eiusm tempor incidi ut labore et dolore magnaian aliqua. Ut enim ad minim veniam.</p>
+                    <h4>name@domain.com</h4>
+                    <span>+1 (222) 1234567890</span>
+                </div>
+            </div>
+            <div class="footer-box">
+                <div class="footer-title">
                     <h3>About Devloon</h3>
                 </div>
-                <div class="footer_links">
+                <div class="footer-links">
                     <ul>
-                        <li><a href="#">About Us</a></li>
-                        <li><a href="#">Career</a></li>
-                        <li><a href="#">Terms of Service</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">career</a></li>
+                        <li><a href="#">Tearms of service</a></li>
                         <li><a href="#">Privacy Policy</a></li>
                     </ul>
                 </div>
             </div>
-            <div class="footer_box">
-                <div class="footer_heading">
-                    <h3>Top Brands</h3>
+            <div class="footer-box">
+                <div class="footer-title">
+                    <h3>Top Brand</h3>
                 </div>
-                <div class="footer_links double">
+                <div class="footer-links">
                     <ul>
-                        <li><a href="#">BMW</a></li>
+                        <li><a href="#">Bmw</a></li>
                         <li><a href="#">lamborghini</a></li>
-                        <li><a href="#">Camaro</a></li>
+                        <li><a href="#">camaro</a></li>
                         <li><a href="#">Audi</a></li>
-                        <li><a href="#">infiniti</a></li>
                         <li><a href="#">Nissan</a></li>
+                        <li><a href="#">infinti</a></li>
                     </ul>
                     <ul>
-                        <li><a href="#">Ferrari</a></li>
-                        <li><a href="#">Porsche</a></li>
-                        <li><a href="#">Land Rover</a></li>
-                        <li><a href="#">Astan Artin</a></li>
+                        <li><a href="#">Ferrai</a></li>
+                        <li><a href="#">porche</a></li>
+                        <li><a href="#">land Rover</a></li>
+                        <li><a href="#">Astan Martin</a></li>
                         <li><a href="#">Mersedes</a></li>
                         <li><a href="#">Opel</a></li>
                     </ul>
                 </div>
             </div>
-            <div class="footer_box">
-                <div class="footer_heading">
-                    <h3>News Letter</h3>
+            <div class="footer-box">
+                <div class="footer-title">
+                    <h3>News letter</h3>
                 </div>
-                <div class="news_letter">
+                <div class="footer-news">
                     <p>Subscribe to get latest news update and informations</p>
                     <form>
-                        <input type="email" name="email" placeholder="Add Email">
+                        <input type="text" placeholder="About">
                         <span><i class="fa fa-arrow-right"></i></span>
                     </form>
                 </div>
             </div>
         </div>
-        <div class="footer_bottom">
-            <div class="footer_wrapper">
+        <div class="footer-bottom">
+            <div class="footBottom-container">
                 <p>© Copyright. Designed And Developed By Themesine.</p>
                 <ul>
-                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                    <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-                    <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                    <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+                    <li><i class="fa fa-facebook"></i></li>
+                    <li><i class="fa fa-instagram"></i></li>
+                    <li><i class="fa fa-linkedin"></i></li>
+                    <li><i class="fa fa-pinterest"></i></li>
+                    <li><i class="fa fa-twitter"></i></li>
                 </ul>
             </div>
         </div>
-    </footer>
-    <!-- --------------- /Footer-section ------------------ -->
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
-    <script src="https://kit.fontawesome.com/edcd5c8c16.js" crossorigin="anonymous"></script>
+    </footer>
+    <!-- ------------------- /footer-section -------------------- -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"
+        integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"     
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://kit.fontawesome.com/edcd5c8c16.js"></script>
     <script src="index.js"></script>
 </body>
-
+</body>
 </html>

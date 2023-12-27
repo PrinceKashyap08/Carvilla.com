@@ -4,125 +4,117 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
-        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
-        integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="style.css">
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" />
     <link rel="stylesheet" href="index.css">
-    <link rel="stylesheet" href="/responsive.css">
     <title>Carvilla.com</title>
 </head>
 
 <body>
-    <!-- ------------------- header-section -------------------- -->
+    <!-- ------------------ header-section ------------------- -->
     <header class="header">
         <nav class="navbar wrapper">
             <div class="logo">
                 <a href="#">Carvilla</a>
             </div>
             <ul class="nav-menu">
-                <li><a href="#hero" class="active">Home</a></li>
-                <li><a href="#service">Service</a></li>
-                <li><a href="#feature">Featured Cars</a></li>
-                <li><a href="#">New cars</a></li>
-                <li><a href="#carBrand">Brands</a></li>
-                <li><a href="#Contact">Contact</a></li>
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#hero">Service</a></li>
+                <li><a href="#hero">Featured cars</a></li>
+                <li><a href="#hero">New cars</a></li>
+                <li><a href="#hero">Brands</a></li>
+                <li><a href="#hero">Contact</a></li>
             </ul>
-            <div class="hamburger">
-                <div class="line"></div>
-                <div class="line"></div>
-                <div class="line"></div>
-            </div>
         </nav>
     </header>
-    <!-- ------------------- header-section -------------------- -->
+    <!-- ------------------ /header-section ------------------- -->
 
-    <!-- ------------------- main-section -------------------- -->
+    <!-- ------------------ main-section ------------------- -->
     <main>
-        <!-- ------------------- hero-section -------------------- -->
+        <!-- ------------------ hero-section ------------------- -->
         <section class="hero" id="hero">
             <div class="hero-container wrapper">
-                <h1>Get Your Desired car in Resonable Price</h1>
+                <h1>GET YOUR DESIRED CAR IN RESONABLE PRICE</h1>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
                     et dolore magna aliqua.</p>
-                <button type="submit" class="h-btn">Contact Us</button>
+                <a href="#" class="h-btn">Contact Us</a>
+            </div>
+            <div class="hero-bottom">
+                <div class="h-container wrapper">
+                    <div>
+                        <div class="custom-select">
+                            <label for="">Select Year</label>
+                            <select>
+                                <option>Year</option>
+                                <option>2012</option>
+                                <option>2013</option>
+                                <option>2014</option>
+                                <option>2015</option>
+                            </select>
+                            <div class="select-arrow"></div>
+                        </div>
+                        <div class="custom-select">
+                            <label for="">Body Style</label>
+                            <select>
+                                <option>Style</option>
+                                <option>Seden</option>
+                                <option>Van</option>
+                                <option>Roadster</option>
+                            </select>
+                            <div class="select-arrow"></div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="custom-select">
+                            <label for="">Select Make</label>
+                            <select>
+                                <option>Make</option>
+                                <option>Toyota</option>
+                                <option>henden</option>
+                                <option>Swift</option>
+                            </select>
+                            <div class="select-arrow"></div>
+                        </div>
+                        <div class="custom-select">
+                            <label for="">Car Condition</label>
+                            <select>
+                                <option>Condition</option>
+                                <option>Toyota</option>
+                                <option>henden</option>
+                                <option>Swift</option>
+                            </select>
+                            <div class="select-arrow"></div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="custom-select">
+                            <label for="">Select Model</label>
+                            <select>
+                                <option>Modal</option>
+                                <option>Toyota</option>
+                                <option>henden</option>
+                                <option>Swift</option>
+                            </select>
+                            <div class="select-arrow"></div>
+                        </div>
+                        <div class="custom-select">
+                            <label for="">Select Price</label>
+                            <select>
+                                <option>Price</option>
+                                <option>Toyota</option>
+                                <option>henden</option>
+                                <option>Swift</option>
+                            </select>
+                            <div class="select-arrow"></div>
+                        </div>
+                    </div>
+                    <button type="button" class="s-btn">Search</button>
+                </div>
             </div>
         </section>
-        <!-- ------------------- /hero-section -------------------- -->
-
-        <!-- ------------------- searchModal-section -------------------- -->
-        <section class="search-box">
-            <div class="search-container">
-                <div class="search-box">
-                    <div class="search-modal">
-                        <label for="year">Select Year</label><br>
-                        <select name="Year" id="year">
-                            <option value="Year">Year</option>
-                            <option value="Year">2045</option>
-                            <option value="Year">2044</option>
-                            <option value="Year">2043</option>
-                        </select>
-                    </div>
-                    <div class="search-modal">
-                        <label for="year">Body Style</label><br>
-                        <select name="Year" id="year">
-                            <option value="Year">Style</option>
-                            <option value="Year">Sedan</option>
-                            <option value="Year">Van</option>
-                            <option value="Year">Roadster</option>
-                        </select>
-                    </div>
-                </div>
-                <div class="search-box">
-                    <div class="search-modal">
-                        <label for="year">Seect Make</label><br>
-                        <select name="Year" id="year">
-                            <option value="Year">Make</option>
-                            <option value="Year">Toyota</option>
-                            <option value="Year">Honda</option>
-                            <option value="Year">marcdes Benz</option>
-                        </select>
-                    </div>
-                    <div class="search-modal">
-                        <label for="year">Car Collection</label><br>
-                        <select name="Year" id="year">
-                            <option value="Year">Collection</option>
-                            <option value="Year">Somethings</option>
-                            <option value="Year">Somethings</option>
-                            <option value="Year">Somethings</option>
-                        </select>
-                    </div>
-                </div>
-                <div class="search-box">
-                    <div class="search-modal">
-                        <label for="year">Seect Model</label><br>
-                        <select name="Year" id="year">
-                            <option value="Year">Model</option>
-                            <option value="Year">Kia-Ria</option>
-                            <option value="Year">mitsubisi</option>
-                            <option value="Year">Ford</option>
-                        </select>
-                    </div>
-                    <div class="search-modal">
-                        <label for="year">Car Price</label><br>
-                        <select name="Year" id="year">
-                            <option value="Year">Price</option>
-                            <option value="Year">$0.000</option>
-                            <option value="Year">$0.000</option>
-                            <option value="Year">$0.000</option>
-                        </select>
-                    </div>
-                </div>    
-                <div class="search-btn">
-                    <button class="search-button">Search</button>
-                </div>
-            </div>
-        </section>
-        <!-- ------------------- /searchModal-section -------------------- -->
+        <!-- ------------------ /hero-section ------------------- -->
 
         <!-- ------------------- service-section -------------------- -->
         <section class="service" id="service">
@@ -163,8 +155,11 @@
                         </div>
                         <div class="newCars-content">
                             <H3>Chevrolet Camaro ZA100</H3>
-                            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                            <p>Sed ut pers unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>
+                            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                                nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+                                officia deserunt mollit anim id est laborum.</p>
+                            <p>Sed ut pers unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.
+                            </p>
                             <button class="newCar-btn">View Details</button>
                         </div>
                     </div>
@@ -174,8 +169,11 @@
                         </div>
                         <div class="newCars-content">
                             <H3>BMW Series-3 Wagan</H3>
-                            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                            <p>Sed ut pers unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>
+                            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                                nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+                                officia deserunt mollit anim id est laborum.</p>
+                            <p>Sed ut pers unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.
+                            </p>
                             <button class="newCar-btn">View Details</button>
                         </div>
                     </div>
@@ -185,8 +183,11 @@
                         </div>
                         <div class="newCars-content">
                             <H3>Ferrari 488 Superfast</H3>
-                            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                            <p>Sed ut pers unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>
+                            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                                nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+                                officia deserunt mollit anim id est laborum.</p>
+                            <p>Sed ut pers unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.
+                            </p>
                             <button class="newCar-btn">View Details</button>
                         </div>
                     </div>
@@ -344,30 +345,32 @@
 
         <!-- ------------------- brand-section -------------------- -->
         <section class="brand" id="carBrand">
-            <div class="owl-carousel owl-theme wrapper">
-                <div class="brand-box">
-                    <div class="brand-img-1"></div>
-                </div>
-                <div class="brand-box">
-                    <div class="brand-img-2"></div>
-                </div>
-                <div class="brand-box">
-                    <div class="brand-img-3"></div>
-                </div>
-                <div class="brand-box">
-                    <div class="brand-img-4"></div>
-                </div>
-                <div class="brand-box">
-                    <div class="brand-img-5"></div>
-                </div>
-                <div class="brand-box">
-                    <div class="brand-img-6"></div>
+            <div class="brand-container wrapper">
+                <div class="owl-carousel owl-theme wrapper">
+                    <div class="brand-box">
+                        <a href="#"><img src="/Images/br1.png" alt=""></a>
+                    </div>
+                    <div class="brand-box">
+                        <a href="#"><img src="/Images/br2.png" alt=""></a>
+                    </div>
+                    <div class="brand-box">
+                        <a href="#"><img src="/Images/br3.png" alt=""></a>
+                    </div>
+                    <div class="brand-box">
+                        <a href="#"><img src="/Images/br4.png" alt=""></a>
+                    </div>
+                    <div class="brand-box">
+                        <a href="#"><img src="/Images/br5.png" alt=""></a>
+                    </div>
+                    <div class="brand-box">
+                        <a href="#"><img src="/Images/br6.png" alt=""></a>
+                    </div>
                 </div>
             </div>
         </section>
         <!-- ------------------- /brand-section -------------------- -->
     </main>
-    <!-- ------------------- /main-section -------------------- -->
+    <!-- ------------------ /main-section ------------------- -->
 
     <!-- ------------------- footer-section -------------------- -->
     <footer class="footer" id="Contact">
@@ -441,19 +444,13 @@
                 </ul>
             </div>
         </div>
-
     </footer>
     <!-- ------------------- /footer-section -------------------- -->
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"
-        integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw=="
-        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
-        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
-        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
     <script src="https://kit.fontawesome.com/edcd5c8c16.js"></script>
     <script src="index.js"></script>
-</body>
 </body>
 
 </html>

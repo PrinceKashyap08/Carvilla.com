@@ -1,3 +1,9 @@
+// Sticky 
+window.addEventListener("scroll", function(){
+    const header = document.querySelector("header");
+    header.classList.toggle("sticky",window.scrollY > 0);
+});
+// hamburger 
 let hamburger = document.querySelector(".hamburger");
 let navMneu = document.querySelector(".nav-menu");
 hamburger.addEventListener("click",mobileMenu);

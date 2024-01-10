@@ -80,6 +80,10 @@
     .wrapper{
         padding: 0 10px;
     }
+    .hamburger .line{
+        width: 25px;
+        margin: 6px;
+    }
     .nav-menu{
         padding: 20px 10px;
     }

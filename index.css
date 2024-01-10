@@ -500,7 +500,7 @@ li{
 .Client-title h2::after {
     position: absolute;
     content: '';
-    left: 40%;
+    left: 35%;
     right: 50%;
     top: 80px;
     width: 80px;

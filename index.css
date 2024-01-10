@@ -134,73 +134,13 @@ li{
 .h-btn:hover{
     background: var(--bg-hover);
 }
-.hero-bottom{
-    position: relative;
-    width: 62%;
-    margin: auto;
-    bottom: 180px;
-    background-color: #ffffff;
-    z-index: 1000;
-    background: #fff;
-    box-shadow: 0 10px 40px 0 rgba(38,40,64,.2);
-    border-radius: 3px;
-}
-.h-container {
-    padding: 50px 80px;
-    display: grid;
-    grid-template-columns: repeat(4,1fr);
-    grid-gap: 50px;
-}
-.h-container div{
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-}
-.custom-select {
-	position: relative;
-}
-.custom-select label{
-    font-size: 1.4rem;
-    color: var(--light-black);
-}
-.select-arrow{
-    padding-left: 15px !important;
-}
-.custom-select select{
-    padding: 15px;
-    border: none;
-    background: var(--bg-color);
-    border-radius: 5px;
-    outline: none;
-    color: var(--light-black);
-    cursor: pointer;
-}
-.hero-search{
-    margin-bottom: 50px;
-}
-.hero-search label{
-    font-size: 1.4rem;
-    color: var(--light-black);
-    margin-bottom: 10px;
-}
-.s-btn{
-    height: 60px;
-    width: 100%;
-    position: relative;
-    top: 40%;
-    border: none;
-    font-size: 1.4rem;
-    color: #ffff;
-    background: var(--bg-blue);
-    cursor: pointer;
-}
 /* -------------- hero-style ----------------- */
 
 /* --------------- service-style ----------------*/
 .service {
     position: relative;
     width: 100%;
-    padding-top: 200px;
+    padding-top: 100px;
     padding-bottom: 100px;
 }
 

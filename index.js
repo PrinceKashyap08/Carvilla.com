@@ -1,3 +1,11 @@
+let hamburger = document.querySelector(".hamburger");
+let navMneu = document.querySelector(".nav-menu");
+hamburger.addEventListener("click",mobileMenu);
+
+function mobileMenu(){
+    hamburger.classList.toggle("active");
+    navMneu.classList.toggle("active");
+}
 // owlCarousel 
 $('#client .owl-carousel').owlCarousel({
     loop: true,

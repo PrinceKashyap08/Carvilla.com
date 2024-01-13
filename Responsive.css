@@ -224,7 +224,7 @@
     
 }
 @media screen and (max-width:400px){
-    .navbar{
+    .header{
         height: 60px;
     }
     .nav-menu{

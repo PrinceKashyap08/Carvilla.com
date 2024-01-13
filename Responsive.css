@@ -224,6 +224,12 @@
     
 }
 @media screen and (max-width:400px){
+    .navbar{
+        height: 60px;
+    }
+    .nav-menu{
+        top: 60px;
+    }
     .logo a{
         font-size:2rem;
     }
